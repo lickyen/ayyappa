@@ -1,0 +1,23 @@
+Git setup- GIT Cloning:
+ssh-keygen
+cd .ssh/
+cat id_ed25519.pub
+copy the code and paste into the repo
+mkdir github-repos
+cd github-repos/
+git clone git clone https://github.com/lickyen/ayyappa.git
+cd bitbucket-repos/
+git clone git@bitbucket.org:lickyenayyappamp/ayyappa.git
+[and paste enter (where we copied gihub-repository-code-ssh) yes (finger print yes/no)]
+ls it should show blue colour
+
+git init 	initiating the repo
+git config --global user.name "Lickyenmp"- to add our identity (In company usually will give first name letter & last name letter)
+git config --global user.email "Lickyenayyappamp"- to add mail
+git config core.editor vim- default editor/ you can change the editor ex: vim
+git config user.name-to check the name
+git config user.email-to check the name
+
+The variables are stored in different places:
+Linux: /etc/gitconfig
+Win: ~/.gitconfig or ~/.config/git/config
